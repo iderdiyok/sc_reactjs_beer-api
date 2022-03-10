@@ -5,7 +5,6 @@ import Navigation from './Components/navigation';
 function App() {
   return (
     <div className="App">
-      {/* <Navigation /> */}
       <Home />
     </div>
   );
