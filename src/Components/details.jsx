@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react"
 import { Link, useParams } from "react-router-dom"
+import Navigation from "./navigation"
+
 export default function Details(){
     let apiId = useParams("_id")
     const [beer, setBeer] = useState([])
@@ -41,6 +43,7 @@ export default function Details(){
                     </div>    
                 </div>
             </div>
+            <Navigation />
         </div>
     )
 }

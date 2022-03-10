@@ -23,7 +23,7 @@ export default function AllBeers(){
                         return(
                         <div key={i} className="row d-flex border-bottom border-2 py-4">
                             <div className="col-4">
-                                <img src={ele.image_url} className="w-50"/>
+                                <img src={ele.image_url} alt={ele.name} className="w-50"/>
                             </div>
                             <div className="col-8 mt-5">
                                 <div className="card-body">
