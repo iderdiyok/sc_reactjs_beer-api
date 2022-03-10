@@ -15,7 +15,7 @@ export default function Details(){
                 setBeer(json)
             }
         )
-    }, [])
+    })
 
     return(
         <div className="container">
