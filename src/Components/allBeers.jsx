@@ -21,9 +21,11 @@ export default function AllBeers(){
                 <div className="col-sm-12 col-md-8">
                     { allbeers.map((ele, i) =>{
                         return(
-                        <div key={i} className="row d-flex border-bottom border-2 py-4">
+                        <div key={i} className="row d-flex align-content-around border-bottom border-2 py-4">
                             <div className="col-4">
-                                <img src={ele.image_url} alt={ele.name} className="w-50"/>
+                                <div class="col col-md-6 mx-auto">
+                                    <img src={ele.image_url} alt={ele.name} className="w-100"/>
+                                </div>
                             </div>
                             <div className="col-8 mt-5">
                                 <div className="card-body">
